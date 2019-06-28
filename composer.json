@@ -17,7 +17,7 @@
     ],
     "require": {
         "php": "^7.1",
-        "friendsofsymfony/oauth2-php": "~1.1",
+        "nicolapez/custom-oauth2-php": "*",
         "symfony/dependency-injection": "~3.0|~4.0",
         "symfony/framework-bundle": "~3.0|~4.0",
         "symfony/security-bundle": "~3.0|~4.0"
@@ -41,6 +41,12 @@
         "symfony/yaml": "~3.0|~4.0",
         "willdurand/propel-typehintable-behavior": "~1.0"
     },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/nicolapez/oauth2-php.git"
+        }
+    ],
     "suggest": {
         "doctrine/doctrine-bundle": "*",
         "doctrine/mongodb-odm-bundle": "*",
